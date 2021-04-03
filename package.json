@@ -1,0 +1,19 @@
+{
+    "name": "projectx",
+    "version": "1.0.0",
+    "description": "Random project",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/lialeon84/projectX.git"
+    },
+    "author": "Rose Vergel",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lialeon84/projectX/issues"
+    },
+    "homepage": "https://github.com/lialeon84/projectX#readme"
+}
