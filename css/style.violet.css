@@ -370,7 +370,7 @@
   
   .dark-mask.mask-primary {
     background: #79d7ee;
-    opacity:0.6;
+    opacity:0.4;
   }
   
   .icon-outlined {
@@ -944,7 +944,7 @@
   }
   
   .testimonials .text p {
-    color: rgb(5, 5, 5);
+    color: black;
   }
   
   .testimonials .avatar {
