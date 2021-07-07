@@ -228,9 +228,11 @@
   }
   
   .background-pentagon, #heading-breadcrumbs {
-    background: url("../img/texture-bw.png") center center repeat;
+    background: url("../img/bright.jpeg") center center repeat;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
+    background-color: #79d7ee;
+    opacity: 0.6;
   }
   
   .heading, .panel-heading {
@@ -367,7 +369,8 @@
   }
   
   .dark-mask.mask-primary {
-    background: rgba(152, 109, 189, 0.9);
+    background: #79d7ee;
+    opacity:0.6;
   }
   
   .icon-outlined {
@@ -745,10 +748,10 @@
   }
   
   #navbar .navbar-nav > li.active > a {
-    background: #79d7ee !important;
-    color: #fff !important;
+    
+    color: rgb(20, 20, 20) !important;
     text-decoration: none !important;
-    border-color: #79d7ee !important;
+   
   }
   
   #navbar .navbar-nav > li > a {
@@ -941,7 +944,7 @@
   }
   
   .testimonials .text p {
-    color: #999;
+    color: rgb(5, 5, 5);
   }
   
   .testimonials .avatar {
