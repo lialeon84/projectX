@@ -280,7 +280,7 @@ $(function() {
 
      var todaysDate = new Date();
     var year = todaysDate.getFullYear();
-    document.getElementById("year").textContent = year;
+    document.getElementById("year").innerHTML = year;
     
     $("#layout").change(function() {
         if ($(this).val() !== "") {
