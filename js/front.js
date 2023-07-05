@@ -278,6 +278,9 @@ $(function() {
         $("body").addClass($.cookie("theme_layout"));
     }
 
+     var todaysDate = new Date();
+    var year = todaysDate.getFullYear();
+    
     $("#layout").change(function() {
         if ($(this).val() !== "") {
             var theme_layout = $(this).val();
